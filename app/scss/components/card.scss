@@ -1,6 +1,23 @@
 @use "../util" as *;
 
 .card {
+  background-color: var(--darkCardBg);
+  color: var(--darkDesaturetedBlueText);
+  width: rem(255); // TEMPORARY
+
+  &--facebook {
+  }
+  &--twitter {
+  }
+  &--instagram {
+  }
+  &--youtube {
+  }
+
+  &__platform {
+
+  }
+
   &__icon {
     &--facebook {
     }
