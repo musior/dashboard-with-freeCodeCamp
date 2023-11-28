@@ -36,16 +36,16 @@
         aria-label="theme toggle"
         role="radiogroup"
       >
+        <label for="dark"
+          >Dark Mode <span class="visually-hidden">On</span></label
+        >
         <div class="toggle__wrapper">
           <input type="radio" name="theme" id="dark" />
-          <input type="radio" name="theme" id="system" checked />
           <input type="radio" name="theme" id="light" />
           <span class="toggle__background" aria-hidden="true"></span>
           <span class="toggle__button" aria-hidden="true"></span>
         </div>
-        <label for="dark">Dark</label>
-        <label for="system">System</label>
-        <label for="light">Light</label>
+        <label for="light" class="visually-hidden">Dark Mode Off</label>
       </fieldset>
     </header>
 
@@ -193,7 +193,7 @@
               <div class="card__number">19%</div>
             </div>
           </div>
-          
+
           <div class="card card-grid">
             <div class="card__subtitle">Total Views</div>
             <img src="./images/icon-youtube.svg" alt="Youtube" />
@@ -205,7 +205,6 @@
           </div>
         </div>
       </section>
-      
     </main>
 
     <div class="attribution">
